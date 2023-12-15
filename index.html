@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Búsqueda de Cocteles</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Búsqueda de Cocteles</h1>
+
+    <textarea id="detalleCoctel" class="detalle-coctel" rows="10" cols="50" readonly></textarea>
+
+    <label for="nombreReceta">Buscar por nombre:</label>
+    <input type="text" id="nombreReceta" placeholder="Nombre del cóctel">
+
+    <label for="ingredienteReceta">Buscar por ingrediente:</label>
+    <input type="text" id="ingredienteReceta" placeholder="Ingrediente principal">
+    <br>
+    <button onclick="buscarRecetas()">Buscar</button>
+
+    <ul id="resultados"></ul>
+
+    
+
+    <script src="index.js"></script>
+</body>
+</html>

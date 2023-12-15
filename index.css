@@ -1,0 +1,31 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: darkred;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#nombreReceta,
+#ingredienteReceta,
+textarea {
+    margin-bottom: 10px;
+}
+
+textarea {
+    float: right;
+    border-radius: 10px;
+}
