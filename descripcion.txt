@@ -2,4 +2,9 @@ Se utilizó HTML CSSY Java script para crear un buscador de cocteles mediante no
 Él HTML está compuesto por dos 2 cajas de Textos  su respectivo título su botón y un test área que nos permite mostrar la preparación
 
 en el js lo primero que hacemos es obtener los valores de cada caja de Textos
-luego verificamos por medio de que informacios vamos a buscar ya sea nombre o ingrediente 
+luego verificamos por medio de que informacios vamos a buscar ya sea nombre o ingrediente
+
+Se hace la solicitud Get a la api dependiendo de que medio se solicito la busqueda
+
+creaos una funcion para mostrar los elementos dentro de esta iteramos sobre cada coctel para comparar los ingredientes y ver si hay alguna similitud
+mostramos elnombre de cada coctel como un link para posteriorirmente precionarlo y mostrar su preparacion 
